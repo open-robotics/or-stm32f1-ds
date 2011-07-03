@@ -1,0 +1,16 @@
+<language ru>
+<h1>OR-STM32-DS</h1>
+
+Open Robotics controller based on STM32F103VC chip.
+
+Required feauters:
+<ul>
+<li>20 servo control outputs
+<li>16 ADC input on RoboGPIO
+<li>Onboard dual channel motor H-dirver,<br>
+RoboMD2 for additional external motor driver.
+<li>Onboard USB
+<li>Separated I<sup>2</sup>C in RoboBUS and RoboI2C
+<li>CAN 2.0B network
+<ul>
+</language ru>

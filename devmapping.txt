@@ -1,0 +1,55 @@
+# vim:set ft=yaml
+
+TIM1:
+  mode: PWM
+  CH1:  M0PWMP
+  CH1N: M0PWMN
+  CH2:  M1PWMP
+  CH2N: M1PWMN
+
+TIM3:
+  mode: Encoder
+  CH1:  E0F0
+  CH2:  E0F1
+
+USB:
+  D+: USBD+
+  D-: USBD-
+
+SPI3:
+  MISO: RBMISO
+  MOSI: RBMOSI
+  SCK:  RBSCK
+  NSS:  RBGP0
+
+remap:
+  I2C2:
+    SDA: I2C-SDA/RX
+    SCL: I2C-SCL/TX
+  USART3:
+    RX: I2C-SDA/RX
+    TX: I2C-SDA/TX
+
+USART1:
+  RX: RBRX
+  TX: RBTX
+
+CAN1:
+  remapped: true
+  RX: CAN_RX
+  TX: CAN_TX
+
+SWD:
+  SWCLK: SWCLK
+  SWDIO: SWDIO
+
+ADC:
+  map:
+    IN10: AG7
+    IN11: AG6
+    IN12: AG5
+    IN13: AG4
+    IN0:  AG3
+    IN1:  AG2
+    IN2:  AG1
+    IN3:  AG0

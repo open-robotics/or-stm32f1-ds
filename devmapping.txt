@@ -6,15 +6,30 @@ TIM1:
   CH1N: M0PWMN
   CH2:  M1PWMP
   CH2N: M1PWMN
+  CH3:  MDPWM1
+  CH4:  MDPWM2
 
 TIM3:
   mode: Encoder
   CH1:  E0F0
   CH2:  E0F1
 
+TIM4:
+  mode: Encoder
+  CH1:  E1F0
+  CH2:  E1F1
+
 USB:
   D+: USBD+
   D-: USBD-
+
+USART1:
+  RX: RBRX
+  TX: RBTX
+
+I2C1:
+  SDA: RBSDA
+  SCL: RBSCL
 
 SPI3:
   MISO: RBMISO
@@ -22,17 +37,13 @@ SPI3:
   SCK:  RBSCK
   NSS:  RBGP0
 
-remap:
+remap_xor:
   I2C2:
     SDA: I2C-SDA/RX
     SCL: I2C-SCL/TX
   USART3:
     RX: I2C-SDA/RX
     TX: I2C-SDA/TX
-
-USART1:
-  RX: RBRX
-  TX: RBTX
 
 CAN1:
   remapped: true
@@ -44,12 +55,11 @@ SWD:
   SWDIO: SWDIO
 
 ADC:
-  map:
-    IN10: AG7
-    IN11: AG6
-    IN12: AG5
-    IN13: AG4
-    IN0:  AG3
-    IN1:  AG2
-    IN2:  AG1
-    IN3:  AG0
+  IN10: AG7
+  IN11: AG6
+  IN12: AG5
+  IN13: AG4
+  IN0:  AG3
+  IN1:  AG2
+  IN2:  AG1
+  IN3:  AG0

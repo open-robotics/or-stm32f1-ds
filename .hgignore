@@ -3,3 +3,4 @@ syntax: glob
 *.s\#?
 *.b\#?
 *~
+gerber/*

@@ -1,0 +1,135 @@
+[CAM Processor Job]
+Description[ru]="<h1>Convert to Gerber RS274x</h1>\n<p>Creates 7 files at <tt>%P/gerber/</tt>:</p>\n<ol>\n<li>Edge — <tt>%N.Edge.grb</tt></li>\n<li>Top Copper — <tt>%N.TopCopper.grb</li>\n<li>Bottom Copper — <tt>%N.BottomCopper.grb</tt></li>\n<li>Top Silk — <tt>%N.TopSilk.grb</tt></li>\n<li>Top Mask — <tt>%N.TopMask.grb</tt></li>\n<li>Bottom Mask — <tt>%N.BottomMask.grb</tt></li>\n<li>Drill (in Excellon) — <tt>%N.Drill.xln</tt></li>\n</ol>"
+Section=Sec_1
+Section=Sec_2
+Section=Sec_3
+Section=Sec_4
+Section=Sec_5
+Section=Sec_6
+Section=Sec_7
+
+[Sec_1]
+Name[ru]="Edge"
+Prompt[ru]=""
+Device="GERBER_RS274X"
+Wheel=""
+Rack=""
+Scale=1
+Output="%P/gerber/%N.Edge.grb"
+Flags="0 0 0 1 0 1 1"
+Emulate="0 0 0"
+Offset="0.0mil 0.0mil"
+Sheet=1
+Tolerance="0 0 0 0 0 0"
+Pen="0.0mil 0"
+Page="12000.0mil 8000.0mil"
+Layers=" 20"
+Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
+
+[Sec_2]
+Name[ru]="Top Copper"
+Prompt[ru]=""
+Device="GERBER_RS274X"
+Wheel=""
+Rack=""
+Scale=1
+Output="%P/gerber/%N.TopCopper.grb"
+Flags="0 0 0 1 0 1 1"
+Emulate="0 0 0"
+Offset="0.0mil 0.0mil"
+Sheet=1
+Tolerance="0 0 0 0 0 0"
+Pen="0.0mil 0"
+Page="12000.0mil 8000.0mil"
+Layers=" 1 17 18"
+Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
+
+[Sec_3]
+Name[ru]="Bottom Copper"
+Prompt[ru]=""
+Device="GERBER_RS274X"
+Wheel=""
+Rack=""
+Scale=1
+Output="%P/gerber/%N.BottomCopper.grb"
+Flags="0 0 0 1 0 1 1"
+Emulate="0 0 0"
+Offset="0.0mil 0.0mil"
+Sheet=1
+Tolerance="0 0 0 0 0 0"
+Pen="0.0mil 0"
+Page="12000.0mil 8000.0mil"
+Layers=" 16 17 18"
+Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
+
+[Sec_4]
+Name[ru]="Top Silk"
+Prompt[ru]=""
+Device="GERBER_RS274X"
+Wheel=""
+Rack=""
+Scale=1
+Output="%P/gerber/%N.TopSilk.grb"
+Flags="0 0 0 1 0 1 1"
+Emulate="0 0 0"
+Offset="0.0mil 0.0mil"
+Sheet=1
+Tolerance="0 0 0 0 0 0"
+Pen="0.0mil 0"
+Page="12000.0mil 8000.0mil"
+Layers=" 21 25 51 255"
+Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
+
+[Sec_5]
+Name[ru]="Top Mask"
+Prompt[ru]=""
+Device="GERBER_RS274X"
+Wheel=""
+Rack=""
+Scale=1
+Output="%P/gerber/%N.TopMask.grb"
+Flags="0 0 0 1 0 1 1"
+Emulate="0 0 0"
+Offset="0.0mil 0.0mil"
+Sheet=1
+Tolerance="0 0 0 0 0 0"
+Pen="0.0mil 0"
+Page="12000.0mil 8000.0mil"
+Layers=" 29"
+Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
+
+[Sec_6]
+Name[ru]="Bottom Mask"
+Prompt[ru]=""
+Device="GERBER_RS274X"
+Wheel=""
+Rack=""
+Scale=1
+Output="%P/gerber/%N.BottomMask.grb"
+Flags="0 0 0 1 0 1 1"
+Emulate="0 0 0"
+Offset="0.0mil 0.0mil"
+Sheet=1
+Tolerance="0 0 0 0 0 0"
+Pen="0.0mil 0"
+Page="12000.0mil 8000.0mil"
+Layers=" 30"
+Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
+
+[Sec_7]
+Name[ru]="Drill"
+Prompt[ru]=""
+Device="EXCELLON"
+Wheel=""
+Rack=""
+Scale=1
+Output="%P/gerber/%N.Drill.xln"
+Flags="0 0 0 1 0 1 1"
+Emulate="0 0 0"
+Offset="0.0mil 0.0mil"
+Sheet=1
+Tolerance="0 0 0 0 0 0"
+Pen="0.0mil 0"
+Page="12000.0mil 8000.0mil"
+Layers=" 44 45"
+Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"

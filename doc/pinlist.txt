@@ -1,0 +1,728 @@
+Pinlist
+
+Exported from or-stm32-ds.sch at 13.08.11 14:01
+
+EAGLE Version 5.11.0 Copyright (c) 1988-2010 CadSoft
+
+Part     Pad      Pin        Dir      Net
+
+C1       +        +          Pas      VMD
+         -        -          Pas      GND
+
+C2       +        +          Pas      VMD
+         -        -          Pas      GND
+
+C3       +        +          Pas      VREG5
+         -        -          Pas      GND
+
+C4       +        +          Pas      VREG33
+         -        -          Pas      GND
+
+C5       1        1          Pas      GND
+         2        2          Pas      N$2
+
+C6       1        1          Pas      GND
+         2        2          Pas      N$3
+
+C7       1        1          Pas      +3V3
+         2        2          Pas      GND
+
+C8       1        1          Pas      +3V3
+         2        2          Pas      GND
+
+C9       1        1          Pas      +3V3
+         2        2          Pas      GND
+
+C10      1        1          Pas      +3V3
+         2        2          Pas      GND
+
+C11      1        1          Pas      +3V3
+         2        2          Pas      GND
+
+C12      1        1          Pas      !NRST
+         2        2          Pas      GND
+
+DA1      1        GND        In       GND
+         2        OUT        Pas      VREG5
+         3        IN         In       VS1
+
+DA2      1        GND        In       GND
+         2        OUT        Pas      VREG33
+         3        IN         In       VS1
+
+DD1      1        PE2        I/O      S04
+         2        PE3        I/O      S03
+         3        PE4        I/O      S02
+         4        PE5        I/O      S01
+         5        PE6        I/O      S00
+         6        VBAT       I/O               *** unconnected ***
+         7        PC13-TAMPER-RTC I/O               *** unconnected ***
+         8        PC14-OSC32_IN I/O               *** unconnected ***
+         9        PC15-OSC32_OUT I/O               *** unconnected ***
+         10       VSS_5      Pas      GND
+         11       VDD_5      Pwr      +3V3
+         12       OSC_IN     In       N$2
+         13       OSC_OUT    Out      N$3
+         14       !NRST      In       !NRST
+         15       PC0        I/O      AG7
+         16       PC1        I/O      AG6
+         17       PC2        I/O      AG5
+         18       PC3        I/O      AG4
+         19       VSSA       I/O      GND
+         20       VREF-      I/O      GND
+         21       VREF+      I/O      +3V3
+         22       VDDA       I/O      +3V3
+         23       PA0-WKUP   I/O      AG3
+         24       PA1        I/O      AG2
+         25       PA2        I/O      AG1
+         26       PA3        I/O      AG0
+         27       VSS_4      Pas      GND
+         28       VDD_4      Pwr      +3V3
+         29       PA4        I/O      DAC1
+         30       PA5        I/O      DAC2
+         31       PA6        I/O      E0F0
+         32       PA7        I/O      E0F1
+         33       PC4        I/O      M0DIRP
+         34       PC5        I/O      M0DIRN
+         35       PB0        I/O      M1DIRP
+         36       PB1        I/O      M1DIRN
+         37       PB2-BOOT1  I/O      BOOT1
+         38       PE7        I/O      MDDIR1
+         39       PE8        I/O      M0PWMN
+         40       PE9        I/O      M0PWMP
+         41       PE10       I/O      M1PWMN
+         42       PE11       I/O      M1PWMP
+         43       PE12       I/O      MDDIR2
+         44       PE13       I/O      MDPWM1
+         45       PE14       I/O      MDPWM2
+         46       PE15       I/O               *** unconnected ***
+         47       PB10       I/O      I2C-SCL/TX
+         48       PB11       I/O      I2C-SDA/RX
+         49       VSS_1      Pas      GND
+         50       VDD_1      Pwr      +3V3
+         51       PB12       I/O      G0
+         52       PB13       I/O      G1
+         53       PB14       I/O      G2
+         54       PB15       I/O      G3
+         55       PD8        I/O      G4
+         56       PD9        I/O      G5
+         57       PD10       I/O      G6
+         58       PD11       I/O      G7
+         59       PD12       I/O      E1F0
+         60       PD13       I/O      E1F1
+         61       PD14       I/O      S10
+         62       PD15       I/O      S11
+         63       PC6        I/O      S12
+         64       PC7        I/O      S13
+         65       PC8        I/O      S14
+         66       PC9        I/O      S15
+         67       PA8        I/O      S16
+         68       PA9        I/O      U2TX
+         69       PA10       I/O      U2RX
+         70       PA11       I/O      USBD-
+         71       PA12       I/O      USBD+
+         72       PA13       I/O      SWDIO
+         73       NC         NC                *** unconnected ***
+         74       VSS_2      Pas      GND
+         75       VDD_2      Pwr      +3V3
+         76       PA14       I/O      SWCLK
+         77       PA15       I/O      RBGP0
+         78       PC10       I/O      S17
+         79       PC11       I/O      S18
+         80       PC12       I/O      S19
+         81       PD0        I/O      RBGP1
+         82       PD1        I/O      RBGP2
+         83       PD2        I/O      RBGP0
+         84       PD3        I/O               *** unconnected ***
+         85       PD4        I/O               *** unconnected ***
+         86       PD5        I/O      S09
+         87       PD6        I/O      S08
+         88       PD7        I/O      S07
+         89       PB3        I/O      RBSCK
+         90       PB4        I/O      RBMISO
+         91       PB5        I/O      RBMOSI
+         92       PB6        I/O      RBSCL
+         93       PB7        I/O      RBSDA
+         94       BOOT0      In       BOOT0
+         95       PB8        I/O      CAN_RX
+         96       PB9        I/O      CAN_TX
+         97       PE0        I/O      S06
+         98       PE1        I/O      S05
+         99       VSS_3      Pas      GND
+         100      VDD_3      Pwr      +3V3
+
+DD2      1        TXD        In       CAN_TX
+         2        VSS        Pwr      GND
+         3        VDD        Pwr      +3V3
+         4        RXD        Out      CAN_RX
+         5        VREF       Pwr      VREF
+         6        CANL       I/O      CANL
+         7        CANH       I/O      CANH
+         8        RS         In       CANRS
+
+HL1      A        A          Pas      +3V3
+         C        C          Pas      N$6
+
+HL2      A        A          Pas      N$7
+         C        C          Pas      GND
+
+HL3      1        C          Pas      N$10
+         2        A          Pas      M0C-
+         3        C          Pas      M0C-
+         4        A          Pas      N$10
+
+HL4      1        C          Pas      N$13
+         2        A          Pas      M0C-1
+         3        C          Pas      M0C-1
+         4        A          Pas      N$13
+
+JP1      1        1          Pas      GND
+
+JP2      1        1          Pas      GND
+
+JP3      1        1          Pas      VREG5
+         2        2          Pas      +5V
+
+JP4      1        1          Pas      VREG33
+         2        2          Pas      +3V3
+
+JP5      1        1          Pas      U2RX
+         2        2          Pas      N$5
+         3        3          Pas      N$1
+         4        4          Pas      U2TX
+
+JP6      1        1          Pas      +3V3
+         2        2          Pas      GPVCC
+         3        3          Pas      VS1
+
+JP7      1        1          Pas      +3V3
+         2        2          Pas      N$4
+         3        3          Pas      VS0
+
+R1       1        1          Pas      GND
+         2        2          Pas      N$6
+
+R2       1        1          Pas      +3V3
+         2        2          Pas      RBSDA
+
+R3       1        1          Pas      +3V3
+         2        2          Pas      RBSCL
+
+R4       1        1          Pas      GND
+         2        2          Pas      BOOT1
+
+R5       1        1          Pas      M0DIRP
+         2        2          Pas      GND
+
+R6       1        1          Pas      N$7
+         2        2          Pas      BOOT1
+
+R7       1        1          Pas      GND
+         2        2          Pas      M0PWMP
+
+R8       1        1          Pas      N$8
+         2        2          Pas      VMD
+
+R9       1        1          Pas      M0C+
+         2        2          Pas      N$10
+
+R10      1        1          Pas      VMD
+         2        2          Pas      N$9
+
+R11      1        1          Pas      GND
+         2        2          Pas      M0PWMN
+
+R12      1        1          Pas      M0DIRN
+         2        2          Pas      GND
+
+R13      1        1          Pas      M1DIRP
+         2        2          Pas      GND
+
+R14      1        1          Pas      GND
+         2        2          Pas      M1PWMP
+
+R15      1        1          Pas      N$11
+         2        2          Pas      VMD
+
+R16      1        1          Pas      BOOT0
+         2        2          Pas      GND
+
+R17      1        1          Pas      M0C+1
+         2        2          Pas      N$13
+
+R18      1        1          Pas      VMD
+         2        2          Pas      N$12
+
+R19      1        1          Pas      GND
+         2        2          Pas      M1PWMN
+
+R20      1        1          Pas      I2C-SDA/RX
+         2        2          Pas      +5V
+
+R21      1        1          Pas      I2C-SCL/TX
+         2        2          Pas      +5V
+
+R22      1        1          Pas      M1DIRN
+         2        2          Pas      GND
+
+R23      1        1          Pas      USBD+
+         2        2          Pas      +3V3
+
+R24      1        1          Pas      GND
+         2        2          Pas      CANRS
+
+R25      1        1          Pas      +5V
+         2        2          Pas      S00C
+
+R26      1        1          Pas      +5V
+         2        2          Pas      S01C
+
+R27      1        1          Pas      +5V
+         2        2          Pas      S02C
+
+R28      1        1          Pas      +5V
+         2        2          Pas      S03C
+
+R29      1        1          Pas      +5V
+         2        2          Pas      S04C
+
+R30      1        1          Pas      +5V
+         2        2          Pas      S05C
+
+R31      1        1          Pas      +5V
+         2        2          Pas      S06C
+
+R32      1        1          Pas      +5V
+         2        2          Pas      S07C
+
+R33      1        1          Pas      +5V
+         2        2          Pas      S08C
+
+R34      1        1          Pas      +5V
+         2        2          Pas      S09C
+
+R35      1        1          Pas      +5V
+         2        2          Pas      S10C
+
+R36      1        1          Pas      +5V
+         2        2          Pas      S11C
+
+R37      1        1          Pas      +5V
+         2        2          Pas      S12C
+
+R38      1        1          Pas      +5V
+         2        2          Pas      S13C
+
+R39      1        1          Pas      +5V
+         2        2          Pas      S14C
+
+R40      1        1          Pas      +5V
+         2        2          Pas      S15C
+
+R41      1        1          Pas      +5V
+         2        2          Pas      S16C
+
+R42      1        1          Pas      +5V
+         2        2          Pas      S17C
+
+R43      1        1          Pas      +5V
+         2        2          Pas      S18C
+
+R44      1        1          Pas      +5V
+         2        2          Pas      S19C
+
+R45      1        1          Pas      N$5
+         2        2          Pas      RBTXD
+
+R46      1        1          Pas      N$1
+         2        2          Pas      RBRXD
+
+R47      1        1          Pas      S00
+         2        2          Pas      S00C
+
+R48      1        1          Pas      S01
+         2        2          Pas      S01C
+
+R49      1        1          Pas      S02
+         2        2          Pas      S02C
+
+R50      1        1          Pas      S03
+         2        2          Pas      S03C
+
+R51      1        1          Pas      S04
+         2        2          Pas      S04C
+
+R52      1        1          Pas      S05
+         2        2          Pas      S05C
+
+R53      1        1          Pas      S06
+         2        2          Pas      S06C
+
+R54      1        1          Pas      S07
+         2        2          Pas      S07C
+
+R55      1        1          Pas      S08
+         2        2          Pas      S08C
+
+R56      1        1          Pas      S09
+         2        2          Pas      S09C
+
+R57      1        1          Pas      S10
+         2        2          Pas      S10C
+
+R58      1        1          Pas      S11
+         2        2          Pas      S11C
+
+R59      1        1          Pas      S12
+         2        2          Pas      S12C
+
+R60      1        1          Pas      S13
+         2        2          Pas      S13C
+
+R61      1        1          Pas      S14
+         2        2          Pas      S14C
+
+R62      1        1          Pas      S15
+         2        2          Pas      S15C
+
+R63      1        1          Pas      S16
+         2        2          Pas      S16C
+
+R64      1        1          Pas      S17
+         2        2          Pas      S17C
+
+R65      1        1          Pas      S18
+         2        2          Pas      S18C
+
+R66      1        1          Pas      S19
+         2        2          Pas      S19C
+
+R67      1        1          Pas      G0
+         2        2          Pas      G0C
+
+R68      1        1          Pas      G1
+         2        2          Pas      G1C
+
+R69      1        1          Pas      G2
+         2        2          Pas      G2C
+
+R70      1        1          Pas      G3
+         2        2          Pas      G3C
+
+R71      1        1          Pas      G4
+         2        2          Pas      G4C
+
+R72      1        1          Pas      G5
+         2        2          Pas      G5C
+
+R73      1        1          Pas      G6
+         2        2          Pas      G6C
+
+R74      1        1          Pas      G7
+         2        2          Pas      G7C
+
+R75      1        1          Pas      AG0
+         2        2          Pas      AG0C
+
+R76      1        1          Pas      AG1
+         2        2          Pas      AG1C
+
+R77      1        1          Pas      AG2
+         2        2          Pas      AG2C
+
+R78      1        1          Pas      AG3
+         2        2          Pas      AG3C
+
+R79      1        1          Pas      AG4
+         2        2          Pas      AG4C
+
+R80      1        1          Pas      AG5
+         2        2          Pas      AG5C
+
+R81      1        1          Pas      AG6
+         2        2          Pas      AG6C
+
+R82      1        1          Pas      AG7
+         2        2          Pas      AG7C
+
+SV1      1        1          Pas      GND
+         2        2          Pas      GND
+         3        3          Pas      !NRST
+         4        4          Pas               *** unconnected ***
+
+SV2      1        1          Pas      BOOT0
+         2        2          Pas               *** unconnected ***
+         3        3          Pas      +3V3
+         4        4          Pas               *** unconnected ***
+
+VT1      1        G          Pas      M0DIRP
+         2        S          Pas      GND
+         3        D          Pas      N$8
+
+VT2      1        S          Pas      GND
+         2        G          Pas      M0PWMP
+         3        S          Pas      VMD
+         4        G          Pas      N$8
+         5        D          Pas      M0C+
+         6        D2         Pas      M0C+
+         7        D          Pas      M0C+
+         8        D2         Pas      M0C+
+
+VT3      1        S          Pas      GND
+         2        G          Pas      M0PWMN
+         3        S          Pas      VMD
+         4        G          Pas      N$9
+         5        D          Pas      M0C-
+         6        D2         Pas      M0C-
+         7        D          Pas      M0C-
+         8        D2         Pas      M0C-
+
+VT4      1        G          Pas      M0DIRN
+         2        S          Pas      GND
+         3        D          Pas      N$9
+
+VT5      1        G          Pas      M1DIRP
+         2        S          Pas      GND
+         3        D          Pas      N$11
+
+VT6      1        S          Pas      GND
+         2        G          Pas      M1PWMP
+         3        S          Pas      VMD
+         4        G          Pas      N$11
+         5        D          Pas      M0C+1
+         6        D2         Pas      M0C+1
+         7        D          Pas      M0C+1
+         8        D2         Pas      M0C+1
+
+VT7      1        S          Pas      GND
+         2        G          Pas      M1PWMN
+         3        S          Pas      VMD
+         4        G          Pas      N$12
+         5        D          Pas      M0C-1
+         6        D2         Pas      M0C-1
+         7        D          Pas      M0C-1
+         8        D2         Pas      M0C-1
+
+VT8      1        G          Pas      M1DIRN
+         2        S          Pas      GND
+         3        D          Pas      N$12
+
+X1       1        KL         Pas      VMD
+         2        KL         Pas      GND
+
+X2       1        1          Pas      GND
+         2        2          Pas      GND
+         3        3          Pas      DAC1
+         4        4          Pas      DAC2
+
+X3       1        KL         Pas      M0C+
+         2        KL         Pas      M0C-
+
+X4       1        KL         Pas      M0C+1
+         2        KL         Pas      M0C-1
+
+X5       D+       D+         I/O      USBD+
+         D-       D-         I/O      USBD-
+         GND      GND        I/O      GND
+         VBUS     VBUS       I/O               *** unconnected ***
+
+X6       1        1          Pas      GND
+         2        2          Pas      I2C-SCL/TX
+         3        3          Pas      I2C-SDA/RX
+         4        4          Pas      +5V
+
+X7       1        1          Pas      E0F0
+         2        2          Pas      E0F1
+         3        3          Pas      +5V
+         4        4          Pas      GND
+
+X8       1        1          Pas      E1F0
+         2        2          Pas      E1F1
+         3        3          Pas      +5V
+         4        4          Pas      GND
+
+X9       1        1          Pas      +3V3
+         2        2          Pas      SWCLK
+         3        3          Pas      GND
+         4        4          Pas      SWDIO
+
+X10      1        1          Pas      GND
+         2        2          Pas      CANH
+         3        3          Pas      CANL
+         4        4          Pas      GND
+
+X11      1        GND        Pas      GND
+         2        3V3        Pas      +3V3
+         3        RESET      Pas               *** unconnected ***
+         4        MOSI       Pas      RBMOSI
+         5        MISO       Pas      RBMISO
+         6        SCK        Pas      RBSCK
+         7        GP2        Pas      RBGP2
+         8        GP1        Pas      RBGP1
+         9        GP0        Pas      RBGP0
+         10       SDA        Pas      RBSDA
+         11       SCL        Pas      RBSCL
+         12       TXD        Pas      RBTXD
+         13       RXD        Pas      RBRXD
+         14       5V         Pas      +5V
+
+X12      1        1          Pas      S00C
+         2        2          Pas      S01C
+         3        3          Pas      S02C
+         4        4          Pas      S03C
+         5        5          Pas      S04C
+         6        6          Pas      S05C
+         7        7          Pas      S06C
+         8        8          Pas      S07C
+         9        9          Pas      S08C
+         10       10         Pas      S09C
+
+X13      1        1          Pas      S10C
+         2        2          Pas      S11C
+         3        3          Pas      S12C
+         4        4          Pas      S13C
+         5        5          Pas      S14C
+         6        6          Pas      S15C
+         7        7          Pas      S16C
+         8        8          Pas      S17C
+         9        9          Pas      S18C
+         10       10         Pas      S19C
+
+X14      1        1          Pas      G0C
+         2        2          Pas      G1C
+         3        3          Pas      G2C
+         4        4          Pas      G3C
+         5        5          Pas      G4C
+         6        6          Pas      G5C
+         7        7          Pas      G6C
+         8        8          Pas      G7C
+
+X15      1        1          Pas      AG0C
+         2        2          Pas      AG1C
+         3        3          Pas      AG2C
+         4        4          Pas      AG3C
+         5        5          Pas      AG4C
+         6        6          Pas      AG5C
+         7        7          Pas      AG6C
+         8        8          Pas      AG7C
+
+X16      1        PWM2       Pas      MDPWM2
+         2        PWM1       Pas      MDPWM1
+         3        OVLD2      Pas               *** unconnected ***
+         4        OVLD1      Pas               *** unconnected ***
+         5        DIR2       Pas      MDDIR2
+         6        DIR1       Pas      MDDIR1
+         7        SENS2      Pas               *** unconnected ***
+         8        SENS1      Pas               *** unconnected ***
+         9        VSS1       Pas               *** unconnected ***
+         10       GND1       Pas      GND
+         11       VSS2       Pas               *** unconnected ***
+         12       GND2       Pas      GND
+
+X17      1        1          Pas      VS0
+         2        2          Pas      VS0
+         3        3          Pas      VS0
+         4        4          Pas      VS0
+         5        5          Pas      VS0
+         6        6          Pas      VS0
+         7        7          Pas      VS0
+         8        8          Pas      VS0
+         9        9          Pas      VS0
+         10       10         Pas      VS0
+
+X18      1        1          Pas      VS1
+         2        2          Pas      VS1
+         3        3          Pas      VS1
+         4        4          Pas      VS1
+         5        5          Pas      VS1
+         6        6          Pas      VS1
+         7        7          Pas      VS1
+         8        8          Pas      VS1
+         9        9          Pas      VS1
+         10       10         Pas      VS1
+
+X19      1        1          Pas      GPVCC
+         2        2          Pas      GPVCC
+         3        3          Pas      GPVCC
+         4        4          Pas      GPVCC
+         5        5          Pas      GPVCC
+         6        6          Pas      GPVCC
+         7        7          Pas      GPVCC
+         8        8          Pas      GPVCC
+
+X20      1        1          Pas      N$4
+         2        2          Pas      N$4
+         3        3          Pas      N$4
+         4        4          Pas      N$4
+         5        5          Pas      N$4
+         6        6          Pas      N$4
+         7        7          Pas      N$4
+         8        8          Pas      N$4
+
+X21      1        1          Pas      GND
+         2        2          Pas      GND
+         3        3          Pas      GND
+         4        4          Pas      GND
+         5        5          Pas      GND
+         6        6          Pas      GND
+         7        7          Pas      GND
+         8        8          Pas      GND
+         9        9          Pas      GND
+         10       10         Pas      GND
+
+X22      1        1          Pas      GND
+         2        2          Pas      GND
+         3        3          Pas      GND
+         4        4          Pas      GND
+         5        5          Pas      GND
+         6        6          Pas      GND
+         7        7          Pas      GND
+         8        8          Pas      GND
+         9        9          Pas      GND
+         10       10         Pas      GND
+
+X23      1        1          Pas      GND
+         2        2          Pas      GND
+         3        3          Pas      GND
+         4        4          Pas      GND
+         5        5          Pas      GND
+         6        6          Pas      GND
+         7        7          Pas      GND
+         8        8          Pas      GND
+
+X24      1        1          Pas      GND
+         2        2          Pas      GND
+         3        3          Pas      GND
+         4        4          Pas      GND
+         5        5          Pas      GND
+         6        6          Pas      GND
+         7        7          Pas      GND
+         8        8          Pas      GND
+
+X25      1        KL         Pas      VS0
+         2        KL         Pas      GND
+
+X26      1        KL         Pas      VS1
+         2        KL         Pas      GND
+
+X27      1        1          Pas      +5V
+         2        2          Pas      +5V
+         3        3          Pas      +5V
+         4        4          Pas      +5V
+         5        5          Pas      +5V
+         6        6          Pas      +5V
+         7        7          Pas      +5V
+         8        8          Pas      +5V
+
+X28      1        1          Pas      +5V
+         2        2          Pas      +5V
+         3        3          Pas      +5V
+         4        4          Pas      +5V
+         5        5          Pas      +5V
+         6        6          Pas      +5V
+         7        7          Pas      +5V
+         8        8          Pas      +5V
+
+ZQ1      1        1          Pas      N$3
+         2        2          Pas      N$2
+

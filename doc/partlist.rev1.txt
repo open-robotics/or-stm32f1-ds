@@ -1,0 +1,156 @@
+Partlist
+
+Exported from or-stm32-ds.sch at 01.11.11 23:47
+
+EAGLE Version 5.11.0 Copyright (c) 1988-2010 CadSoft
+
+Part     Value          Device          Package            Library                 Sheet
+
+C1       100uF 16V      CPOL-EUE3.5-8   E3,5-8             rcl                     1
+C2       100uF 16V      CPOL-EUE3.5-8   E3,5-8             rcl                     1
+C3       100uF 16V      CPOL-EUE3.5-8   E3,5-8             rcl                     1
+C4       100uF 16V      CPOL-EUE3.5-8   E3,5-8             rcl                     1
+C5       22p            C-EUC0603       C0603              rcl                     1
+C6       22p            C-EUC0603       C0603              rcl                     1
+C7       0.1            C-EUC0603       C0603              rcl                     1
+C8       0.1            C-EUC0603       C0603              rcl                     1
+C9       0.1            C-EUC0603       C0603              rcl                     1
+C10      0.1            C-EUC0603       C0603              rcl                     1
+C11      0.1            C-EUC0603       C0603              rcl                     1
+C12      0.022          C-EUC0603       C0603              rcl                     1
+C13      0.1            C-EUC0603       C0603              rcl                     1
+C14      0.1            C-EUC0603       C0603              rcl                     1
+DA1      5V             LM1117          SOT223             v-reg-3                 1
+DA2      3.3V           LM1117          SOT223             v-reg-3                 1
+DD1      STM32F103VC    STM32F103VC     LQFP100            stm32f103               1
+DD2      MCP2551SN      MCP2551SN       SO-08              can                     1
+HL1                     LEDCHIP-LED0805 CHIP-LED0805       led                     1
+HL2                     LEDCHIP-LED0805 CHIP-LED0805       led                     1
+HL3      KAA-3528ESGC   KAA-3528ESGC    KA-3528            led2                    1
+HL4      KAA-3528ESGC   KAA-3528ESGC    KA-3528            led2                    1
+JP3                     JP1E            JP1                con-std                 1
+JP4                     JP1E            JP1                con-std                 1
+JP5                     JP2Q            JP2Q               jumper                  1
+JP6                     JP2E            JP2                con-std                 1
+JP7                     JP2E            JP2                con-std                 1
+R1       250            R-EU_R0603      R0603              rcl                     1
+R2       4.7k           R-EU_R0603      R0603              rcl                     1
+R3       4.7k           R-EU_R0603      R0603              rcl                     1
+R4       10k            R-EU_R0603      R0603              rcl                     1
+R5       5.1k           R-EU_R0603      R0603              rcl                     1
+R6       250            R-EU_R0603      R0603              rcl                     1
+R7       5.1k           R-EU_R0603      R0603              rcl                     1
+R8       1k             R-EU_R0603      R0603              rcl                     1
+R9       820            R-EU_R0603      R0603              rcl                     1
+R10      1k             R-EU_R0603      R0603              rcl                     1
+R11      5.1k           R-EU_R0603      R0603              rcl                     1
+R12      5.1k           R-EU_R0603      R0603              rcl                     1
+R13      5.1k           R-EU_R0603      R0603              rcl                     1
+R14      5.1k           R-EU_R0603      R0603              rcl                     1
+R15      1k             R-EU_R0603      R0603              rcl                     1
+R16      10k            R-EU_R0603      R0603              rcl                     1
+R17      820            R-EU_R0603      R0603              rcl                     1
+R18      1k             R-EU_R0603      R0603              rcl                     1
+R19      5.1k           R-EU_R0603      R0603              rcl                     1
+R20      4.7k           R-EU_R0603      R0603              rcl                     1
+R21      4.7k           R-EU_R0603      R0603              rcl                     1
+R22      5.1k           R-EU_R0603      R0603              rcl                     1
+R23      1.5k           R-EU_R0603      R0603              rcl                     1
+R24      10k            R-EU_R0603      R0603              rcl                     1
+R25      4.7k           R-EU_R0603      R0603              rcl                     1
+R26      4.7k           R-EU_R0603      R0603              rcl                     1
+R27      4.7k           R-EU_R0603      R0603              rcl                     1
+R28      4.7k           R-EU_R0603      R0603              rcl                     1
+R29      4.7k           R-EU_R0603      R0603              rcl                     1
+R30      4.7k           R-EU_R0603      R0603              rcl                     1
+R31      4.7k           R-EU_R0603      R0603              rcl                     1
+R32      4.7k           R-EU_R0603      R0603              rcl                     1
+R33      4.7k           R-EU_R0603      R0603              rcl                     1
+R34      4.7k           R-EU_R0603      R0603              rcl                     1
+R35      4.7k           R-EU_R0603      R0603              rcl                     1
+R36      4.7k           R-EU_R0603      R0603              rcl                     1
+R37      4.7k           R-EU_R0603      R0603              rcl                     1
+R38      4.7k           R-EU_R0603      R0603              rcl                     1
+R39      4.7k           R-EU_R0603      R0603              rcl                     1
+R40      4.7k           R-EU_R0603      R0603              rcl                     1
+R41      4.7k           R-EU_R0603      R0603              rcl                     1
+R42      4.7k           R-EU_R0603      R0603              rcl                     1
+R43      4.7k           R-EU_R0603      R0603              rcl                     1
+R44      4.7k           R-EU_R0603      R0603              rcl                     1
+R45      150            R-EU_R0603      R0603              rcl                     1
+R46      150            R-EU_R0603      R0603              rcl                     1
+R47      150            R-EU_R0603      R0603              rcl                     1
+R48      150            R-EU_R0603      R0603              rcl                     1
+R49      150            R-EU_R0603      R0603              rcl                     1
+R50      150            R-EU_R0603      R0603              rcl                     1
+R51      150            R-EU_R0603      R0603              rcl                     1
+R52      150            R-EU_R0603      R0603              rcl                     1
+R53      150            R-EU_R0603      R0603              rcl                     1
+R54      150            R-EU_R0603      R0603              rcl                     1
+R55      150            R-EU_R0603      R0603              rcl                     1
+R56      150            R-EU_R0603      R0603              rcl                     1
+R57      150            R-EU_R0603      R0603              rcl                     1
+R58      150            R-EU_R0603      R0603              rcl                     1
+R59      150            R-EU_R0603      R0603              rcl                     1
+R60      150            R-EU_R0603      R0603              rcl                     1
+R61      150            R-EU_R0603      R0603              rcl                     1
+R62      150            R-EU_R0603      R0603              rcl                     1
+R63      150            R-EU_R0603      R0603              rcl                     1
+R64      150            R-EU_R0603      R0603              rcl                     1
+R65      150            R-EU_R0603      R0603              rcl                     1
+R66      150            R-EU_R0603      R0603              rcl                     1
+R67      150            R-EU_R0603      R0603              rcl                     1
+R68      150            R-EU_R0603      R0603              rcl                     1
+R69      150            R-EU_R0603      R0603              rcl                     1
+R70      150            R-EU_R0603      R0603              rcl                     1
+R71      150            R-EU_R0603      R0603              rcl                     1
+R72      150            R-EU_R0603      R0603              rcl                     1
+R73      150            R-EU_R0603      R0603              rcl                     1
+R74      150            R-EU_R0603      R0603              rcl                     1
+R75      150            R-EU_R0603      R0603              rcl                     1
+R76      150            R-EU_R0603      R0603              rcl                     1
+R77      150            R-EU_R0603      R0603              rcl                     1
+R78      150            R-EU_R0603      R0603              rcl                     1
+R79      150            R-EU_R0603      R0603              rcl                     1
+R80      150            R-EU_R0603      R0603              rcl                     1
+R81      150            R-EU_R0603      R0603              rcl                     1
+R82      150            R-EU_R0603      R0603              rcl                     1
+SV1                     TAC_SWITCHSMD   TACTILE_SWITCH_SMD SparkFun                1
+SV2                     TAC_SWITCHSMD   TACTILE_SWITCH_SMD SparkFun                1
+VT1      BSS123         BSS123          SOT23              transistor-small-signal 1
+VT2                     PN_MOSFET-SO8   SO8                zetex                   1
+VT3                     PN_MOSFET-SO8   SO8                zetex                   1
+VT4      BSS123         BSS123          SOT23              transistor-small-signal 1
+VT5      BSS123         BSS123          SOT23              transistor-small-signal 1
+VT6                     PN_MOSFET-SO8   SO8                zetex                   1
+VT7                     PN_MOSFET-SO8   SO8                zetex                   1
+VT8      BSS123         BSS123          SOT23              transistor-small-signal 1
+X1                      HT396R-02P      HT396R-02P         con-std                 1
+X2                      MA04-11.27MM    1X04-1.27MM        con-std                 1
+X3                      HT396R-02P      HT396R-02P         con-std                 1
+X4                      HT396R-02P      HT396R-02P         con-std                 1
+X5       USBSMD         USBSMD          USB-MINIB          SparkFun                1
+X6                      MA04-1          MA04-1             con-std                 1
+X7                      MA04-1          MA04-1             con-std                 1
+X8                      MA04-1          MA04-1             con-std                 1
+X9                      MA04-11.27MM    1X04-1.27MM        con-std                 1
+X10                     MA04-1          MA04-1             con-std                 1
+X11                     ROBOBUSR        ML14L              robobus                 1
+X12                     MA10-1          MA10-1             con-std                 1
+X13                     MA10-1          MA10-1             con-std                 1
+X14                     MA08-1          MA08-1             con-std                 1
+X15                     MA08-1          MA08-1             con-std                 1
+X16      ROBOMD2        ROBOMD2         ML12               robobus                 1
+X17                     MA10-1          MA10-1             con-std                 1
+X18                     MA10-1          MA10-1             con-std                 1
+X19                     MA08-1          MA08-1             con-std                 1
+X20                     MA08-1          MA08-1             con-std                 1
+X21                     MA10-1          MA10-1             con-std                 1
+X22                     MA10-1          MA10-1             con-std                 1
+X23                     MA08-1          MA08-1             con-std                 1
+X24                     MA08-1          MA08-1             con-std                 1
+X25                     W237-02P        W237-132           con-std                 1
+X26                     W237-02P        W237-132           con-std                 1
+X27                     MA08-1          MA08-1             con-std                 1
+X28                     MA08-1          MA08-1             con-std                 1
+ZQ1      8MHz           CRYSTALHC49U-V  HC49U-V            crystal                 1

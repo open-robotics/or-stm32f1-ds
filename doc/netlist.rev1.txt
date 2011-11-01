@@ -1,0 +1,704 @@
+Netlist
+
+Exported from or-stm32-ds.sch at 01.11.11 23:47
+
+EAGLE Version 5.11.0 Copyright (c) 1988-2010 CadSoft
+
+Net      Part     Pad      Pin        Sheet
+
+!NRST    C12      1        1          1
+         DD1      14       !NRST      1
+         SV1      3        3          1
+
++3V3     C10      1        1          1
+         C11      1        1          1
+         C7       1        1          1
+         C8       1        1          1
+         C9       1        1          1
+         DD1      100      VDD_3      1
+         DD1      11       VDD_5      1
+         DD1      21       VREF+      1
+         DD1      22       VDDA       1
+         DD1      28       VDD_4      1
+         DD1      50       VDD_1      1
+         DD1      75       VDD_2      1
+         DD2      3        VDD        1
+         HL1      A        A          1
+         JP4      2        2          1
+         JP6      1        1          1
+         JP7      1        1          1
+         R2       1        1          1
+         R23      2        2          1
+         R3       1        1          1
+         SV2      3        3          1
+         X11      2        3V3        1
+         X9       1        1          1
+
++5V      JP3      2        2          1
+         R20      2        2          1
+         R21      2        2          1
+         R25      1        1          1
+         R26      1        1          1
+         R27      1        1          1
+         R28      1        1          1
+         R29      1        1          1
+         R30      1        1          1
+         R31      1        1          1
+         R32      1        1          1
+         R33      1        1          1
+         R34      1        1          1
+         R35      1        1          1
+         R36      1        1          1
+         R37      1        1          1
+         R38      1        1          1
+         R39      1        1          1
+         R40      1        1          1
+         R41      1        1          1
+         R42      1        1          1
+         R43      1        1          1
+         R44      1        1          1
+         X11      14       5V         1
+         X27      1        1          1
+         X27      2        2          1
+         X27      3        3          1
+         X27      4        4          1
+         X27      5        5          1
+         X27      6        6          1
+         X27      7        7          1
+         X27      8        8          1
+         X28      1        1          1
+         X28      2        2          1
+         X28      3        3          1
+         X28      4        4          1
+         X28      5        5          1
+         X28      6        6          1
+         X28      7        7          1
+         X28      8        8          1
+         X6       4        4          1
+         X7       3        3          1
+         X8       3        3          1
+
+AG0      DD1      26       PA3        1
+         R75      1        1          1
+
+AG0C     R75      2        2          1
+         X15      1        1          1
+
+AG1      DD1      25       PA2        1
+         R76      1        1          1
+
+AG1C     R76      2        2          1
+         X15      2        2          1
+
+AG2      DD1      24       PA1        1
+         R77      1        1          1
+
+AG2C     R77      2        2          1
+         X15      3        3          1
+
+AG3      DD1      23       PA0-WKUP   1
+         R78      1        1          1
+
+AG3C     R78      2        2          1
+         X15      4        4          1
+
+AG4      DD1      18       PC3        1
+         R79      1        1          1
+
+AG4C     R79      2        2          1
+         X15      5        5          1
+
+AG5      DD1      17       PC2        1
+         R80      1        1          1
+
+AG5C     R80      2        2          1
+         X15      6        6          1
+
+AG6      DD1      16       PC1        1
+         R81      1        1          1
+
+AG6C     R81      2        2          1
+         X15      7        7          1
+
+AG7      DD1      15       PC0        1
+         R82      1        1          1
+
+AG7C     R82      2        2          1
+         X15      8        8          1
+
+BOOT0    DD1      94       BOOT0      1
+         R16      1        1          1
+         SV2      1        1          1
+
+BOOT1    DD1      37       PB2-BOOT1  1
+         R4       2        2          1
+         R6       2        2          1
+
+CANH     DD2      7        CANH       1
+         X10      2        2          1
+
+CANL     DD2      6        CANL       1
+         X10      3        3          1
+
+CANRS    DD2      8        RS         1
+         R24      2        2          1
+
+CAN_RX   DD1      95       PB8        1
+         DD2      4        RXD        1
+
+CAN_TX   DD1      96       PB9        1
+         DD2      1        TXD        1
+
+DAC1     DD1      29       PA4        1
+         X2       3        3          1
+
+DAC2     DD1      30       PA5        1
+         X2       4        4          1
+
+E0F0     DD1      31       PA6        1
+         X7       1        1          1
+
+E0F1     DD1      32       PA7        1
+         X7       2        2          1
+
+E1F0     DD1      59       PD12       1
+         X8       1        1          1
+
+E1F1     DD1      60       PD13       1
+         X8       2        2          1
+
+G0       DD1      51       PB12       1
+         R67      1        1          1
+
+G0C      R67      2        2          1
+         X14      1        1          1
+
+G1       DD1      52       PB13       1
+         R68      1        1          1
+
+G1C      R68      2        2          1
+         X14      2        2          1
+
+G2       DD1      53       PB14       1
+         R69      1        1          1
+
+G2C      R69      2        2          1
+         X14      3        3          1
+
+G3       DD1      54       PB15       1
+         R70      1        1          1
+
+G3C      R70      2        2          1
+         X14      4        4          1
+
+G4       DD1      55       PD8        1
+         R71      1        1          1
+
+G4C      R71      2        2          1
+         X14      5        5          1
+
+G5       DD1      56       PD9        1
+         R72      1        1          1
+
+G5C      R72      2        2          1
+         X14      6        6          1
+
+G6       DD1      57       PD10       1
+         R73      1        1          1
+
+G6C      R73      2        2          1
+         X14      7        7          1
+
+G7       DD1      58       PD11       1
+         R74      1        1          1
+
+G7C      R74      2        2          1
+         X14      8        8          1
+
+GND      C1       -        -          1
+         C10      2        2          1
+         C11      2        2          1
+         C12      2        2          1
+         C13      2        2          1
+         C14      2        2          1
+         C2       -        -          1
+         C3       -        -          1
+         C4       -        -          1
+         C5       1        1          1
+         C6       1        1          1
+         C7       2        2          1
+         C8       2        2          1
+         C9       2        2          1
+         DA1      1        GND        1
+         DA2      1        GND        1
+         DD1      10       VSS_5      1
+         DD1      19       VSSA       1
+         DD1      20       VREF-      1
+         DD1      27       VSS_4      1
+         DD1      49       VSS_1      1
+         DD1      74       VSS_2      1
+         DD1      99       VSS_3      1
+         DD2      2        VSS        1
+         HL2      C        C          1
+         R1       1        1          1
+         R11      1        1          1
+         R12      2        2          1
+         R13      2        2          1
+         R14      1        1          1
+         R16      2        2          1
+         R19      1        1          1
+         R22      2        2          1
+         R24      1        1          1
+         R4       1        1          1
+         R5       2        2          1
+         R7       1        1          1
+         SV1      1        1          1
+         SV1      2        2          1
+         VT1      2        S          1
+         VT2      1        S          1
+         VT3      1        S          1
+         VT4      2        S          1
+         VT5      2        S          1
+         VT6      1        S          1
+         VT7      1        S          1
+         VT8      2        S          1
+         X1       2        KL         1
+         X10      1        1          1
+         X10      4        4          1
+         X11      1        GND        1
+         X16      10       GND1       1
+         X16      12       GND2       1
+         X2       1        1          1
+         X2       2        2          1
+         X21      1        1          1
+         X21      10       10         1
+         X21      2        2          1
+         X21      3        3          1
+         X21      4        4          1
+         X21      5        5          1
+         X21      6        6          1
+         X21      7        7          1
+         X21      8        8          1
+         X21      9        9          1
+         X22      1        1          1
+         X22      10       10         1
+         X22      2        2          1
+         X22      3        3          1
+         X22      4        4          1
+         X22      5        5          1
+         X22      6        6          1
+         X22      7        7          1
+         X22      8        8          1
+         X22      9        9          1
+         X23      1        1          1
+         X23      2        2          1
+         X23      3        3          1
+         X23      4        4          1
+         X23      5        5          1
+         X23      6        6          1
+         X23      7        7          1
+         X23      8        8          1
+         X24      1        1          1
+         X24      2        2          1
+         X24      3        3          1
+         X24      4        4          1
+         X24      5        5          1
+         X24      6        6          1
+         X24      7        7          1
+         X24      8        8          1
+         X25      2        KL         1
+         X26      2        KL         1
+         X5       GND      GND        1
+         X6       1        1          1
+         X7       4        4          1
+         X8       4        4          1
+         X9       3        3          1
+
+GPVCC    JP6      2        2          1
+         X19      1        1          1
+         X19      2        2          1
+         X19      3        3          1
+         X19      4        4          1
+         X19      5        5          1
+         X19      6        6          1
+         X19      7        7          1
+         X19      8        8          1
+
+I2C-SCL/TX DD1      47       PB10       1
+         R21      1        1          1
+         X6       2        2          1
+
+I2C-SDA/RX DD1      48       PB11       1
+         R20      1        1          1
+         X6       3        3          1
+
+M0C+     R9       1        1          1
+         VT2      5        D          1
+         VT2      6        D2         1
+         VT2      7        D          1
+         VT2      8        D2         1
+         X3       1        KL         1
+
+M0C+1    R17      1        1          1
+         VT6      5        D          1
+         VT6      6        D2         1
+         VT6      7        D          1
+         VT6      8        D2         1
+         X4       1        KL         1
+
+M0C-     HL3      2        A          1
+         HL3      3        C          1
+         VT3      5        D          1
+         VT3      6        D2         1
+         VT3      7        D          1
+         VT3      8        D2         1
+         X3       2        KL         1
+
+M0C-1    HL4      2        A          1
+         HL4      3        C          1
+         VT7      5        D          1
+         VT7      6        D2         1
+         VT7      7        D          1
+         VT7      8        D2         1
+         X4       2        KL         1
+
+M0DIRN   DD1      34       PC5        1
+         R12      1        1          1
+         VT4      1        G          1
+
+M0DIRP   DD1      33       PC4        1
+         R5       1        1          1
+         VT1      1        G          1
+
+M0PWMN   DD1      39       PE8        1
+         R11      2        2          1
+         VT3      2        G          1
+
+M0PWMP   DD1      40       PE9        1
+         R7       2        2          1
+         VT2      2        G          1
+
+M1DIRN   DD1      36       PB1        1
+         R22      1        1          1
+         VT8      1        G          1
+
+M1DIRP   DD1      35       PB0        1
+         R13      1        1          1
+         VT5      1        G          1
+
+M1PWMN   DD1      41       PE10       1
+         R19      2        2          1
+         VT7      2        G          1
+
+M1PWMP   DD1      42       PE11       1
+         R14      2        2          1
+         VT6      2        G          1
+
+MDDIR1   DD1      38       PE7        1
+         X16      6        DIR1       1
+
+MDDIR2   DD1      43       PE12       1
+         X16      5        DIR2       1
+
+MDPWM1   DD1      44       PE13       1
+         X16      2        PWM1       1
+
+MDPWM2   DD1      45       PE14       1
+         X16      1        PWM2       1
+
+N$1      JP5      3        3          1
+         R46      1        1          1
+
+N$2      C5       2        2          1
+         DD1      12       OSC_IN     1
+         ZQ1      2        2          1
+
+N$3      C6       2        2          1
+         DD1      13       OSC_OUT    1
+         ZQ1      1        1          1
+
+N$4      JP7      2        2          1
+         X20      1        1          1
+         X20      2        2          1
+         X20      3        3          1
+         X20      4        4          1
+         X20      5        5          1
+         X20      6        6          1
+         X20      7        7          1
+         X20      8        8          1
+
+N$5      JP5      2        2          1
+         R45      1        1          1
+
+N$6      HL1      C        C          1
+         R1       2        2          1
+
+N$7      HL2      A        A          1
+         R6       1        1          1
+
+N$8      R8       1        1          1
+         VT1      3        D          1
+         VT2      4        G          1
+
+N$9      R10      2        2          1
+         VT3      4        G          1
+         VT4      3        D          1
+
+N$10     HL3      1        C          1
+         HL3      4        A          1
+         R9       2        2          1
+
+N$11     R15      1        1          1
+         VT5      3        D          1
+         VT6      4        G          1
+
+N$12     R18      2        2          1
+         VT7      4        G          1
+         VT8      3        D          1
+
+N$13     HL4      1        C          1
+         HL4      4        A          1
+         R17      2        2          1
+
+RBGP0    DD1      77       PA15       1
+         DD1      83       PD2        1
+         X11      9        GP0        1
+
+RBGP1    DD1      81       PD0        1
+         X11      8        GP1        1
+
+RBGP2    DD1      82       PD1        1
+         X11      7        GP2        1
+
+RBMISO   DD1      90       PB4        1
+         X11      5        MISO       1
+
+RBMOSI   DD1      91       PB5        1
+         X11      4        MOSI       1
+
+RBRXD    R46      2        2          1
+         X11      13       RXD        1
+
+RBSCK    DD1      89       PB3        1
+         X11      6        SCK        1
+
+RBSCL    DD1      92       PB6        1
+         R3       2        2          1
+         X11      11       SCL        1
+
+RBSDA    DD1      93       PB7        1
+         R2       2        2          1
+         X11      10       SDA        1
+
+RBTXD    R45      2        2          1
+         X11      12       TXD        1
+
+S00      DD1      5        PE6        1
+         R47      1        1          1
+
+S00C     R25      2        2          1
+         R47      2        2          1
+         X12      1        1          1
+
+S01      DD1      4        PE5        1
+         R48      1        1          1
+
+S01C     R26      2        2          1
+         R48      2        2          1
+         X12      2        2          1
+
+S02      DD1      3        PE4        1
+         R49      1        1          1
+
+S02C     R27      2        2          1
+         R49      2        2          1
+         X12      3        3          1
+
+S03      DD1      2        PE3        1
+         R50      1        1          1
+
+S03C     R28      2        2          1
+         R50      2        2          1
+         X12      4        4          1
+
+S04      DD1      1        PE2        1
+         R51      1        1          1
+
+S04C     R29      2        2          1
+         R51      2        2          1
+         X12      5        5          1
+
+S05      DD1      98       PE1        1
+         R52      1        1          1
+
+S05C     R30      2        2          1
+         R52      2        2          1
+         X12      6        6          1
+
+S06      DD1      97       PE0        1
+         R53      1        1          1
+
+S06C     R31      2        2          1
+         R53      2        2          1
+         X12      7        7          1
+
+S07      DD1      88       PD7        1
+         R54      1        1          1
+
+S07C     R32      2        2          1
+         R54      2        2          1
+         X12      8        8          1
+
+S08      DD1      87       PD6        1
+         R55      1        1          1
+
+S08C     R33      2        2          1
+         R55      2        2          1
+         X12      9        9          1
+
+S09      DD1      86       PD5        1
+         R56      1        1          1
+
+S09C     R34      2        2          1
+         R56      2        2          1
+         X12      10       10         1
+
+S10      DD1      61       PD14       1
+         R57      1        1          1
+
+S10C     R35      2        2          1
+         R57      2        2          1
+         X13      1        1          1
+
+S11      DD1      62       PD15       1
+         R58      1        1          1
+
+S11C     R36      2        2          1
+         R58      2        2          1
+         X13      2        2          1
+
+S12      DD1      63       PC6        1
+         R59      1        1          1
+
+S12C     R37      2        2          1
+         R59      2        2          1
+         X13      3        3          1
+
+S13      DD1      64       PC7        1
+         R60      1        1          1
+
+S13C     R38      2        2          1
+         R60      2        2          1
+         X13      4        4          1
+
+S14      DD1      65       PC8        1
+         R61      1        1          1
+
+S14C     R39      2        2          1
+         R61      2        2          1
+         X13      5        5          1
+
+S15      DD1      66       PC9        1
+         R62      1        1          1
+
+S15C     R40      2        2          1
+         R62      2        2          1
+         X13      6        6          1
+
+S16      DD1      67       PA8        1
+         R63      1        1          1
+
+S16C     R41      2        2          1
+         R63      2        2          1
+         X13      7        7          1
+
+S17      DD1      78       PC10       1
+         R64      1        1          1
+
+S17C     R42      2        2          1
+         R64      2        2          1
+         X13      8        8          1
+
+S18      DD1      79       PC11       1
+         R65      1        1          1
+
+S18C     R43      2        2          1
+         R65      2        2          1
+         X13      9        9          1
+
+S19      DD1      80       PC12       1
+         R66      1        1          1
+
+S19C     R44      2        2          1
+         R66      2        2          1
+         X13      10       10         1
+
+SWCLK    DD1      76       PA14       1
+         X9       2        2          1
+
+SWDIO    DD1      72       PA13       1
+         X9       4        4          1
+
+U2RX     DD1      69       PA10       1
+         JP5      1        1          1
+
+U2TX     DD1      68       PA9        1
+         JP5      4        4          1
+
+USBD+    DD1      71       PA12       1
+         R23      1        1          1
+         X5       D+       D+         1
+
+USBD-    DD1      70       PA11       1
+         X5       D-       D-         1
+
+VMD      C1       +        +          1
+         C2       +        +          1
+         R10      1        1          1
+         R15      2        2          1
+         R18      1        1          1
+         R8       2        2          1
+         VT2      3        S          1
+         VT3      3        S          1
+         VT6      3        S          1
+         VT7      3        S          1
+         X1       1        KL         1
+
+VREG5    C14      1        1          1
+         C3       +        +          1
+         DA1      2        OUT        1
+         JP3      1        1          1
+
+VREG33   C13      1        1          1
+         C4       +        +          1
+         DA2      2        OUT        1
+         JP4      1        1          1
+
+VS0      JP7      3        3          1
+         X17      1        1          1
+         X17      10       10         1
+         X17      2        2          1
+         X17      3        3          1
+         X17      4        4          1
+         X17      5        5          1
+         X17      6        6          1
+         X17      7        7          1
+         X17      8        8          1
+         X17      9        9          1
+         X25      1        KL         1
+
+VS1      DA1      3        IN         1
+         DA2      3        IN         1
+         JP6      3        3          1
+         X18      1        1          1
+         X18      10       10         1
+         X18      2        2          1
+         X18      3        3          1
+         X18      4        4          1
+         X18      5        5          1
+         X18      6        6          1
+         X18      7        7          1
+         X18      8        8          1
+         X18      9        9          1
+         X26      1        KL         1
+

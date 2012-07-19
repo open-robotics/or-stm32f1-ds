@@ -11,7 +11,7 @@
 <li>RoboMD2 for additional external motor driver
 <li>Onboard USB
 <li>Separated I<sup>2</sup>C in RoboBUS and RoboI2C
-<li>CAN 2.0B network
+<li>CAN 2.0B network*
 <li>2 quadrature encoder inputs
 </ul>
 
@@ -24,5 +24,7 @@ Connectors:
 <li>1 RoboMD2
 <li>1 RoboI2C
 <li>1 USB
-<li>1 CAN
+<li>1 CAN*
 </ul>
+
+<sub>* CAN not useful with USB due STM32F1 hardware limitation.</sub>

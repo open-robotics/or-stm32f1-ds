@@ -1,8 +1,8 @@
 <h1>OR-STM32F1-DS</h1>
 
-Open Robotics controller based on STM32F103VC chip.
+<p>Open Robotics controller based on STM32F103VC chip.
 
-Feauters:
+<p>Feauters:
 <ul>
 <li>20 servo control outputs
 <li>8 RoboGPIO with ADC option
